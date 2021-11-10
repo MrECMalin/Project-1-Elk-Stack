@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-[Azure Diagram](https://github.com/MrECMalin/Project-1-Elk-Stack/blob/main/Unit%2012%20Azure%20Diagram.jpg)
+![alt text](https://github.com/MrECMalin/Project-1-Elk-Stack/blob/main/Unit%2012%20Azure%20Diagram.jpg)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -64,8 +64,7 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because system installation and updating can be simplified, the number of services can be restricted, and processes can be replicated.
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
