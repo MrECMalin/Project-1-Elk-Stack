@@ -68,15 +68,15 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 
- *Install docker.io
+- Install docker.io
  
- *Install pip3
+- Install pip3
  
- *Install Docker python module
+- Install Docker python module
  
- *Increase virtual memory
+- Increase virtual memory
  
- *Download and launch a docker
+- Download and launch a docker
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
@@ -104,9 +104,9 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 SSH into the control node and follow the steps below:
 
-*Copy the configuration file to your web VMs.
-*Update the /etc/ansible/hosts file to include the IP addresses of the ELK server, VM, and webservers.
-*Run the playbook, and navigate to http://10.225.13.126:5601/app/kibana to check that the installation worked as expected.
+- Copy the configuration file to your web VMs.
+- Update the /etc/ansible/hosts file to include the IP addresses of the ELK server, VM, and webservers.
+- Run the playbook, and navigate to http://10.225.13.126:5601/app/kibana to check that the installation worked as expected.
 
 The playbook file is filebeat-configuration.yml which you would copy from /etc/ansible/files/filebeat-configuration.yml to /etc/filebeat/filebeat-configuration.yml
 
