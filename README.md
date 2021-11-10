@@ -60,7 +60,7 @@ A summary of the access policies in place can be found in the table below.
 | Load Balancer  |   Yes        |   Open                   |
 |  Web 1        |  No                   |  10.0.0.5                   |
 |  Web 2        |  No                   |  10.0.0.6                   |
-|  Web 1        |  Yes                   |  10.225.13.126   |
+|  ELK Server        |  Yes                   |  10.225.13.126   |
 
 ### Elk Configuration
 
