@@ -10,6 +10,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 [Filebeat Playbook](https://github.com/MrECMalin/Project-1-Elk-Stack/blob/main/filebeat-playbook.yml)
 
+[Metricbeat Playbook]
 
 This document contains the following details:
 - Description of the Topology
